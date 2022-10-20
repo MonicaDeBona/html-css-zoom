@@ -13,7 +13,7 @@ main{
 
 .container{
     width: 90vw;
-    height: 70vh;
+    height: 85vh;
     background-color: bisque;
 }
 
@@ -31,12 +31,17 @@ main{
     flex-wrap: wrap;
 }
 
+.space-between{
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 
 .card-container{
     background-color: rgb(153, 91, 211);
-    width: 12vw;
-    height: 13vh;
+    width: 12.5vw;
+    height: 16vh;
     border: 1px solid black;
 }
 
