@@ -10,7 +10,7 @@
     height: calc(100vh - 150px);
     background-color: rgb(0, 0, 0);
     padding: 5vh 10vh;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .flex{
@@ -79,23 +79,30 @@ header{
 .card-container{
     width: 220px;
     height: 140px;
-    border: 1px solid black;
-    padding: 3px
+    padding: 2px;
 }
 
 .card{
     width: 100%;
 }
 
+.card-name{
+    bottom: 2px;
+    left: 2px;
+    background-color: rgba(128, 128, 128, 0.315);
+    padding: 5px;
+}
+
+
+
 footer{
     height: 100px;
     width: 100%;
-    background-color: rgb(66, 60, 60);
+    background-color: #474747;
     position: fixed;
     z-index: 2;
     min-width: 1000px;
 }
-
 
 .flex-footer{
     flex-direction: column;
@@ -115,7 +122,7 @@ footer{
 }
 
 footer i{
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding-bottom: .50rem;
 }
 
@@ -130,4 +137,7 @@ footer i{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.fa-share-from-square{
+    color: #4ac600;
 }
