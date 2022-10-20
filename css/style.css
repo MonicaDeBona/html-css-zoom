@@ -69,8 +69,8 @@ header{
 
 footer{
     height: 100px;
+    width: 100%;
     background-color: rgb(66, 60, 60);
-    width: 100vw;
     position: fixed;
     z-index: 2;
 }
