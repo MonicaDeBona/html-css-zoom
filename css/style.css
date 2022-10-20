@@ -1,0 +1,47 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 90vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+}
+
+.container{
+    width: 90vw;
+    height: 70vh;
+    background-color: bisque;
+}
+
+
+.flex{
+    display: flex;
+}
+
+.flex-centered{
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+
+
+.card-container{
+    background-color: rgb(153, 91, 211);
+    width: 12vw;
+    height: 13vh;
+    border: 1px solid black;
+}
+
+footer{
+    height: 10vh;
+    background-color: rgb(66, 60, 60);
+    width: 100vw;
+}
