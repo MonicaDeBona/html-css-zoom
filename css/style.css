@@ -5,15 +5,16 @@
     box-sizing: border-box;
 }
 
-main{
-    height: 85vh;
+.container{
     width: 100vw;
+    height: calc(100vh - 150px);
     background-color: rgb(0, 0, 0);
+    padding: 5vh 10vh;
 }
 
 header{
     background-color: rgb(0, 0, 0);
-    height: 5vh;
+    height: 50px;
 }
 
 .p-absolute{
@@ -42,11 +43,6 @@ header{
     right: 10px;
 }
 
-.container{
-    width: 90vw;
-    height: 75vh;
-    background-color: bisque;
-}
 
 
 .flex{
@@ -72,12 +68,16 @@ header{
 .card-container{
     background-color: rgb(153, 91, 211);
     width: 220px;
-    height: 120px;
+    height: 140px;
     border: 1px solid black;
 }
 
+.card{
+    width: 100%;
+}
+
 footer{
-    height: 10vh;
+    height: 100px;
     background-color: rgb(66, 60, 60);
     width: 100vw;
     position: fixed;
