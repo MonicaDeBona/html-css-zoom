@@ -13,6 +13,26 @@
     overflow: scroll;
 }
 
+.flex{
+    display: flex;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.flex-end{
+    justify-content: flex-end;
+}
+
+.centered{
+    align-items: center;
+}
+
 header{
     background-color: rgb(0, 0, 0);
     height: 50px;
@@ -37,7 +57,6 @@ header{
 }
 
 .button-style{
-    color: white;
     background-color: grey;
     border-radius: 10px;
     padding: 8px;
@@ -46,33 +65,22 @@ header{
     font-size: .85rem;
 }
 
-.fa-eye{
+.eye{
     font-size: 1.2rem;
     padding-right: .50rem;
 }
 
-.fa-microphone{
+.mic{
     font-size: 1.2rem;
     padding: 0 .50rem;
 }
 
 
-.flex{
-    display: flex;
-}
-
-.wrap{
-    flex-wrap: wrap;
-}
-
-.space-between{
-    justify-content: space-between;
-}
-
 .card-container{
     width: 220px;
     height: 140px;
     border: 1px solid black;
+    padding: 3px
 }
 
 .card{
@@ -85,4 +93,41 @@ footer{
     background-color: rgb(66, 60, 60);
     position: fixed;
     z-index: 2;
+    min-width: 1000px;
+}
+
+
+.flex-footer{
+    flex-direction: column;
+}
+
+.user-cam-mic,
+.meeting{
+    flex-basis: 20%;
+}
+
+.zoom-option{
+    flex-basis: 60%;
+}
+
+.white{
+    color: white;
+}
+
+footer i{
+    font-size: 2rem;
+    padding-bottom: .50rem;
+}
+
+.square{
+    height: 100%;
+    width: 50%;
+    background-color: gray;
+    color: red;
+}
+
+.meeting-text{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
