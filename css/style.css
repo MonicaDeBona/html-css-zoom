@@ -40,8 +40,8 @@ main{
 
 .card-container{
     background-color: rgb(153, 91, 211);
-    width: 12.5vw;
-    height: 16vh;
+    width: 220px;
+    height: 150px;
     border: 1px solid black;
 }
 
@@ -49,4 +49,6 @@ footer{
     height: 10vh;
     background-color: rgb(66, 60, 60);
     width: 100vw;
+    position: fixed;
+    z-index: 2;
 }
